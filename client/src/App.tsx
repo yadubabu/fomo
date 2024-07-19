@@ -26,7 +26,6 @@ type Props = {
 
 
 const App=({}:Props)=> {
-  const stocks=useSelector<AppState,Stocks[]>(state=>state.stocks)
   const dispatch:Dispatch<any> =useDispatch();
   // useEffect(()=>{
   //   dispatch(getStocks());
@@ -35,7 +34,7 @@ const App=({}:Props)=> {
     const interval = setInterval(() => {
       
       dispatch(getData())
-
+      // dispatch(getStocks())
     }, 2000); // Reloads the page every 2 seconds
 
     return () => clearInterval(interval); // Cleanup the interval on component unmount
@@ -48,8 +47,7 @@ const App=({}:Props)=> {
                       })
           .catch(err=>console.log(err));
     }
-    useEffect(()=>{
-    },[])
+    
   useEffect(()=>{
     fetchStocks()
   },[]);
