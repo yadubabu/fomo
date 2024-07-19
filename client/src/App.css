@@ -1,0 +1,27 @@
+*{
+ height: vh;
+ width: vw;
+}
+.App{
+  border: 1px rgb(34, 32, 32) solid;
+  margin: 5px;
+}
+.head{
+  flex:0.5 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+.nav{
+  flex:0.5 ;
+
+}
+
+.header{
+  border-radius: 5px;
+  background-color: rgb(64, 54, 71);
+  border-bottom: 1px rgb(118, 116, 116) solid;
+}
+#current {
+  border: solid red 2px;
+}
+
