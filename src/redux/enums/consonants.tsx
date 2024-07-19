@@ -1,0 +1,6 @@
+export enum Types{
+    COIN_LIST='COIN_LIST',
+    SET_LIST='SET_LIST',
+    SET_STOCKS='SET_STOCKS',
+    GET_STOCKS='GET_STOCKS'
+}
