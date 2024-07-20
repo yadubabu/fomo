@@ -45,3 +45,28 @@
     margin-bottom: -20px;
     min-height: 100px;
 }
+.none{
+    display: none;
+}
+.display{
+    display: block;
+   
+}
+.tabModel{
+    position: absolute;
+    left: 220px;
+    top:300px;
+    border: 1px rgb(31, 29, 29) solid;
+    width: max-content;
+    height:max-content;
+    border-radius: 10px;
+    box-shadow: 10px;
+    letter-spacing: -1px;
+    /* background-color:rgb(190, 181, 181); */
+}
+.close{
+    border: 1px lightgray solid;
+    background-color: lightgray;
+    padding-inline: 2px;
+    border-radius: 6px;
+}
