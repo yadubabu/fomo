@@ -4,12 +4,6 @@ import TableComp from './styledComponents/Table';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppState } from './redux/store';
 import { Dispatch } from 'redux';
-import { getCoinList } from './redux/actions/allActions';
-import { getData } from './redux/actions/allActions';
-// import { getCoinList } from './redux/actions/allActions';
-import axios from 'axios';
-import { setCoinsList } from './api';
-import { Coins, Stocks } from './dataTypes';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -18,8 +12,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import About from './pages/About';
 import StocksPage from './styledComponents/StocksPage';
-import { getStocks } from './redux/actions/stockActions';
-
+import { getData } from './redux/actions/coinActions';
 type Props = {
   // path: string; exact: true; element: Element;
 }
