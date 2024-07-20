@@ -1,10 +1,7 @@
 const express=require('express');
- const getCoins=require('../controllers/coinsListController')
-const coinRouter=express.Router();
-const getSingleCoin=require('../controllers/coinController')
+const stockRouter=express.Router();
+const getStocks = require('../controllers/stockController');
 
-coinRouter.route('/list').get(getCoins);
-coinRouter.route('/single/:code').get(getSingleCoin);
+stockRouter.route('/list').get(getStocks);
 
-
-module.exports=coinRouter;
+module.exports=stockRouter;
