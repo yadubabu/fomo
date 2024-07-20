@@ -1,7 +1,7 @@
 
  CryptoReal-time Web Application 
 
-A Web Application that allows you to see real-time data polls for the coins or crypto.
+A Web Application that allows you to see real-time data polls for the STOCKS or CRYPTO.
 ## API Reference
 
 #### Get all items
