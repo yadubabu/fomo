@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 const coinSchema=require('../models/coinSchema');
 
-const apiKey='29e51052-ce6c-40b5-8fca-ff898cd84d9c';
+const apiKey='7ac591be-9775-46ac-b65c-281ec4d66890';
 const url='https://api.livecoinwatch.com';
 // }
 
