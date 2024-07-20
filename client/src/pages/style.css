@@ -1,0 +1,62 @@
+#coin{
+    background-color: wheat;
+    color: black;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#stock{
+    background-color: wheat;
+    color: black;
+    font-weight: 700;
+    text-decoration: underline;
+    
+}
+.table-cell{
+    border-bottom: 1px rgb(198, 197, 197) solid;
+    font-weight: 500;
+}
+.thead{
+    color: #0c0c0e;
+    background-color: rgb(106, 106, 106);
+    padding: 5px;
+    margin: 5px;
+    font-size:large;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.tbody:hover{
+    background-color: #e5e4e4;
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.code{
+    letter-spacing: 1px
+}
+.search{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+.exchange{
+    position: relative;
+    border-color: #ff0 !important;
+    margin-bottom: -20px;
+    min-height: 100px;
+}
+.none{
+    display: none;
+}
+.display{
+    display: block;
+    position: absolute;
+    left: 120px;
+    top:200px;
+    border: 1px gray solid;
+    width: 80vw;
+    height: 65vh;
+    border-radius: 10px;
+    background-color:rgb(190, 181, 181);
+    opacity: 0.7;
+}
